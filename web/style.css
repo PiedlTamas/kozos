@@ -41,10 +41,64 @@ header img{
 .container{
     background-color: rgb(0, 153, 255);
     padding: 3rem;
+    
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+li{
+    font-weight: initial;
+
+    
+}
+li:hover{
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    padding: 20px;
 }
 .cica{
-
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 3px gray solid;
 }
 .vissza{
+    text-align: right;
     
+}
+p a{
+    text-decoration: none;
+    text-align: right;
+}
+section{
+    width: 80%;
+    padding: 15px;
+    background-color: antiquewhite;
+    margin: 20px auto 20px auto;
+    border-radius: 35px;
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
+}
+h3{
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+.container img{
+    width: 1000px;
+    margin: auto;
+    display: block;
+    border: 5px white solid;
+    
+}
+h1::before,h1::after{
+    content: "🖐️";
 }
